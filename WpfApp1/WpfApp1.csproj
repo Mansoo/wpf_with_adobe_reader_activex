@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AcroPDFLib">
+      <HintPath>AcroPDFLib.dll</HintPath>
+    </Reference>
+    <Reference Include="AxAcroPDFLib">
+      <HintPath>AxAcroPDFLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
