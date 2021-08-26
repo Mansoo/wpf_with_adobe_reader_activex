@@ -5,3 +5,4 @@
 /.vs
 /WpfApp1/bin/Debug/net5.0-windows
 /WpfApp1/obj
+/WpfApp1/bin/x86/Debug/net5.0-windows
